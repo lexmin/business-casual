@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>miembros clan kaos</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/business-casual.css" rel="stylesheet">
+  </head>
+
+  <body>
+  
+    <div class="brand">Clan KaOs the Old School</div>
+    <div class="address-bar">Miembros</div>
+
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Business Casual</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Miembros</a></li>
+            <li><a href="blog.html">Historia</a></li>
+            <li><a href="contact.html">Contactos</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center">Sobre  <strong>los miembros</strong></h2>
+            <hr>
+          </div>
+          <div class="col-md-6">
+            <img class="img-responsive img-border-left" src="img/kaos2.jpg">
+          </div>
+          <div class="col-md-6">
+            <p>Aqui podreis ver a todos los miembros de nuestro equipo, si algun secreto tiene este clan y por el cual lleva perdurando tantos anos es la union que tenemos entre nosotros y el lazo existente de amistad.</p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center">Nuestro <strong>Equipo</strong></h2>
+            <hr>
+          </div>
+          <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="http://placehold.it/750x450">
+              <h3>John Smith <small>Job Title</small></h3>
+          </div>
+          <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="http://placehold.it/750x450">
+              <h3>John Smith <small>Job Title</small></h3>
+          </div>
+          <div class="col-sm-4 text-center">
+              <img class="img-responsive" src="http://placehold.it/750x450">
+              <h3>John Smith <small>Job Title</small></h3>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p>Copyright &copy; Company 2013</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Make sure to add jQuery - download the most recent version at http://jquery.com/ -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+	  // Activates the Carousel
+	  $('.carousel').carousel({
+		interval: 5000
+	  })
+	</script>
+  </body>
+</html>
